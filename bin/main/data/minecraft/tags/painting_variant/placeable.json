@@ -1,6 +1,20 @@
 {
     "values": [
         "monochromaticheartpaintings:cave1",
-        "monochromaticheartpaintings:enderman"
+        "monochromaticheartpaintings:cave2",
+        "monochromaticheartpaintings:enderman",
+        "monochromaticheartpaintings:fighting1",
+        "monochromaticheartpaintings:fighting2",
+        "monochromaticheartpaintings:fighting3",
+        "monochromaticheartpaintings:house1",
+        "monochromaticheartpaintings:house2",
+        "monochromaticheartpaintings:pond",
+        "monochromaticheartpaintings:portal1",
+        "monochromaticheartpaintings:portal2",
+        "monochromaticheartpaintings:portrait",
+        "monochromaticheartpaintings:sleeping",
+        "monochromaticheartpaintings:sunrise1",
+        "monochromaticheartpaintings:sunrise2",
+        "monochromaticheartpaintings:sunrise3"
     ]
 }

@@ -1,5 +1,6 @@
 package com.ManiDev.MonochromaticHeartPaintings;
 
+import com.ManiDev.MonochromaticHeartPaintings.painting.ModPaintings;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -24,6 +25,7 @@ public class MonochromaticHeartPaintings
     public MonochromaticHeartPaintings()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModPaintings.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
